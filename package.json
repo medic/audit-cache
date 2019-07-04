@@ -1,6 +1,6 @@
 {
   "name": "@medic/audit-dependencies",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Caches the results of npm audit so it only runs if the package-lock.json changes.",
   "bin": {
     "audit-dependencies": "src/cli.js"
