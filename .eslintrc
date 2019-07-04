@@ -1,0 +1,46 @@
+{
+  "env": {
+    "es6": true,
+    "node":true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "rules": {
+    "eqeqeq": "error",
+    "no-bitwise": "error",
+    "no-buffer-constructor": "error",
+    "no-caller": "error",
+    "no-console": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/test/**"
+      ],
+      "globals": {
+        "after": true,
+        "afterAll": true,
+        "afterEach": true,
+        "assert": true,
+        "before": true,
+        "beforeAll": true,
+        "beforeEach": true,
+        "describe": true,
+        "it": true
+      }
+    }
+  ]
+}
