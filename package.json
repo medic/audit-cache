@@ -1,9 +1,9 @@
 {
-  "name": "@medic/audit-dependencies",
-  "version": "1.0.0",
+  "name": "audit-cache",
+  "version": "0.0.1",
   "description": "Caches the results of npm audit so it only runs if the package-lock.json changes.",
   "bin": {
-    "audit-dependencies": "src/cli.js"
+    "audit-cache": "src/cli.js"
   },
   "scripts": {
     "test": "mocha test/**/*.spec.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/medic/audit-dependencies.git"
+    "url": "git://github.com/medic/audit-cache.git"
   },
   "keywords": [
     "npm",
@@ -23,9 +23,9 @@
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/medic/audit-dependencies/issues"
+    "url": "https://github.com/medic/audit-cache/issues"
   },
-  "homepage": "https://github.com/medic/audit-dependencies#readme",
+  "homepage": "https://github.com/medic/audit-cache#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.0.1",
